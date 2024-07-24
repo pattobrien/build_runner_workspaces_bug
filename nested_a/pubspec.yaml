@@ -1,0 +1,17 @@
+name: nested_a
+description: A sample command-line application.
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0-311.0.dev
+
+resolution: workspace
+
+dependencies:
+  freezed_annotation: any
+  json_annotation: any
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  lints: ^4.0.0
+  test: ^1.24.0

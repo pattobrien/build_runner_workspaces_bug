@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://json.schemastore.org/dart-build.json
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          explicit_to_json: true
+          include_if_null: false
+
+    sources:
+      include:
+        - "$package$"
+        - "lib/$lib$"
+        - "nested_a/**"
+        - "nested_b/**"
+
+global_options:
+  freezed:freezed:
+    runs_before:
+      - json_serializable
