@@ -34,6 +34,12 @@ exit code 1
 ## additional environment info
 
 ```console
+❯ flutter --version
+Flutter 3.24.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 80c2e84975 (13 days ago) • 2024-07-30 23:06:49 +0700
+Engine • revision b8800d88be
+Tools • Dart 3.5.0 • DevTools 2.37.2
+
 ❯ flutter doctor
 Doctor summary (to see all details, run flutter doctor -v):
 [✓] Flutter (Channel stable, 3.24.0, on macOS 14.4.1 23E224 darwin-arm64, locale en-US)
