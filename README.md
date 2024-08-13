@@ -1,5 +1,7 @@
 # flutter workspaces bug
 
+filed issue: https://github.com/flutter/flutter/issues/153327
+
 ## steps to reproduce
 
 1. add `flutter` as a dependency in the root workspace pubspec.
